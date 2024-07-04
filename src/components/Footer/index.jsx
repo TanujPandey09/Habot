@@ -36,7 +36,7 @@ const socialIcons = [
 const Footer = () => {
     return (
         <footer className="bg-[#051d40] text-white p-7">
-            <div className="container mx-auto px-20">
+            <div className="container mx-auto md:px-20">
                 <div className="border-t border-b border-gray-700">
                     <div className="flex flex-wrap justify-between py-8 px-4 md:px-8">
                         <div className="w-full md:w-auto mb-6 md:mb-0">
