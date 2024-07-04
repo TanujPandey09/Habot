@@ -1,0 +1,53 @@
+.bg-hero-image{
+  background-image: url(/asset/Hero-background.png);
+  background-position: center;
+  object-fit: cover;  
+}
+
+
+
+/* HeroSection */
+
+.hero-section h1,
+.hero-section h2 {
+  font-size: 55px;
+  line-height: 66px;
+}
+
+/* Video Section  */
+
+.custom-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.custom-list-item {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+.custom-list-item::before {
+  content: url(/asset/list-checked.svg);
+  position: absolute;
+  left: 0;
+  
+ 
+}
+
+
+/* Footer */
+
+.footer_section{
+  background-color: #123557;
+}
+
+
+/* Media queries */
+
+@media (max-width: 600px) {
+  .hero-section h1,
+  .hero-section h2 {
+    font-size: 32px; 
+    line-height:44px;
+    width: auto;
+  }
+}
